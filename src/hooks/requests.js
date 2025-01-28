@@ -1,4 +1,4 @@
-const API_URL = "https://nasaprojectbackend-production.up.railway.app";
+const API_URL = process.env.REACT_APP_BACKEND_URL;
 
 async function httpGetPlanets() {
   // TODO: Once API is ready.
